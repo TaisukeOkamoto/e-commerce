@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*カートテーブル
+---------------------------------------------------------------------------*/
+table.cart {
+	background: #FFF;	/*背景色*/
+	color: #333;		/*文字色*/
+	width: 100%;
+}
+table.cart, table.cart td, table.cart th {
+	border: 1px solid #000;	/*枠線の幅、線種、色*/
+}
+table.cart td, table.cart th {
+	padding: 10px;	/*余白*/
+	text-align: center;	/*内容をセンタリング*/
+}
+/*左側ボックス*/
+table.cart th {
+	background-color: #F0F0F0;
+	vertical-align: middle;
+}
+/*テーブル１行目に入った見出し部分*/
+table.cart th.tamidashi {
+	width: auto;
+	text-align: left;	/*内容を左寄せ*/
+	color: #FFF;		/*文字色*/
+	background: #222;	/*背景色*/
+}
+
+/*上部のナビゲーション
+---------------------------------------------------------------------------*/
+.nav strong {
+	color: #e60012;	/*strongタグの文字色*/
+}
