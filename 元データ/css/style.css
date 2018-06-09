@@ -91,6 +91,20 @@ header .cart a {
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);	/*ボックスの影。右に、下に、広げる幅、0,0,0は黒の事で0.2は透明度20%の事。*/
 }
 
+header .login a {
+	position: absolute;
+	right: 200px;		/*ヘッダーに対して右から0pxの場所に配置*/
+	bottom: 25px;	/*ヘッダーに対して下から40pxの場所に配置*/
+	width: 150px;	/*ボタン幅*/
+	text-decoration: none;
+	display: block;
+	background: #c2ac47;	/*背景色（古いブラウザ用）*/
+	background:linear-gradient(#f9eaa7, #c2ac47);	/*背景画像(左から15%の場所に配置、画像サイズは幅を20pxに指定)と、グラデーション*/
+	border-radius: 3px;	/*角丸のサイズ*/
+	text-align: center;
+	color: #000;	/*文字色*/
+	padding: 10px 5px 10px 5px;	/*上、右、下、左への余白*/
+}
 /*メインメニュー
 ---------------------------------------------------------------------------*/
 /*メニューブロック*/
